@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background-color: black;
+}
+
+
+
+.el1 {
+    background-color:rgb(248, 58, 58);
+    text-align: center;
+    border-radius: 20px;
+    width: 95%;
+    left: 2.5%;
+    position: absolute;
+    font-weight: lighter;
+    top: 5.4vh;
+}
+
+
+#friends {
+    background-color: black;
+    margin: 2%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 7vh;
+    bottom: 0px;
+    color: rgb(255, 253, 253);
+    font-size: 24px;
+    line-height: 1cm;
+}
+
+.el2 {
+    background-color: turquoise;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 80vh;
+}
+
+#name {
+    background-color:rgb(248, 58, 58);
+    border-radius: 10px;
+    height: 6vh;
+    width: 80%;
+    border: 1px solid black;
+    top: 10vh;
+    left: 10%;
+    position: absolute;
+    line-height: 34px;
+    font-size: medium;
+}
+
+#lname {
+    position: absolute;
+    top: 21vh;
+    left: 10%;
+    background-color:rgb(253, 251, 251);
+    border-radius: 10px;
+    height: 5vh;
+    width: 79%;
+    border: none;
+
+}
+
+
+#h32 {
+    margin-top: 12vh;
+    text-align: center;
+}
+
+#infriends {
+    position: absolute;
+    top: 34vh;
+    left: 10%;
+    background-color:rgb(253, 251, 251);
+    border-radius: 10px;
+    height: 30vh;
+    width: 79%;
+    border: none;
+    word-wrap: normal;
+}
+
+#submit {
+    position: absolute;
+    top: 67vh;
+    background-color:rgb(248, 58, 58);
+    border-radius: 10px;
+    height: 6vh;
+    width: 80%;
+    border: 1px solid black;
+    left: 10%;
+    position: absolute;
+    line-height: 34px;
+    font-size: medium;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+footer {
+    position: absolute;
+    bottom: 8%;
+    left: 24%;
+    font-weight: 300;
+}
