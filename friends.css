@@ -30,6 +30,19 @@ body {
     font-size: 24px;
     line-height: 1cm;
 }
+@media screen and (max-width: 375px) {
+    #friends {
+        font-size: 26px;
+        line-height: 1.3cm;
+    }
+}
+@media screen and (max-width: 414px) {
+    #friends {
+        line-height: 49px;
+        font-size: 34px;
+    }
+}
+
 
 .el2 {
     background-color: turquoise;
@@ -43,18 +56,25 @@ body {
     border-radius: 10px;
     height: 6vh;
     width: 80%;
-    border: 1px solid black;
+    border: none;
+    border-top: 4px  solid black;
     top: 10vh;
     left: 10%;
     position: absolute;
     line-height: 34px;
     font-size: medium;
 }
+@media screen and (max-width: 375px) {
+    #name {
+        line-height: 37px;
+        font-size: large;
+    }
+}
 
 #lname {
     position: absolute;
     top: 21vh;
-    left: 10%;
+    left: 10.2%;
     background-color:rgb(253, 251, 251);
     border-radius: 10px;
     height: 5vh;
@@ -68,11 +88,16 @@ body {
     margin-top: 12vh;
     text-align: center;
 }
+@media screen and (max-width: 375px) {
+    #h32 {
+        margin-top: 13vh;
+    }
+}
 
 #infriends {
     position: absolute;
     top: 34vh;
-    left: 10%;
+    left: 10.3%;
     background-color:rgb(253, 251, 251);
     border-radius: 10px;
     height: 30vh;
@@ -81,6 +106,7 @@ body {
     word-wrap: normal;
 }
 
+
 #submit {
     position: absolute;
     top: 67vh;
@@ -88,10 +114,11 @@ body {
     border-radius: 10px;
     height: 6vh;
     width: 80%;
-    border: 1px solid black;
+    border: none;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
     left: 10%;
     position: absolute;
-    line-height: 34px;
     font-size: medium;
     font-family: Raleway;
     font-weight: 600;
@@ -102,4 +129,9 @@ footer {
     bottom: 8%;
     left: 24%;
     font-weight: 300;
+}
+@media screen and (max-width: 375px) {
+    footer {
+        left: 27%;
+    }
 }
