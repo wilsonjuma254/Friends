@@ -7,9 +7,9 @@
 // }
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-	$name = $_POST['uname'];
+	$name = $_POST['fullname'];
 	$comment = $_POST['friends'];
-	echo "Name: $name <br>";
-	echo "Comment: $comment";
+		echo "Name: $name <br>";
+		echo "Comment: $comment";	
 }
 ?>
